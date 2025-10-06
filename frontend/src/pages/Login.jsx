@@ -5,8 +5,8 @@ import "../css/Login.css";
 const Login = ({setIsAuthenticated}) => {
     const navigate = useNavigate();
 
-    const [email, setEmail] = useState("stefan.vukojevic@elfak.rs");
-    const [password, setPassword] = useState("123");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
     const [username, setUsername] = useState("");
 
