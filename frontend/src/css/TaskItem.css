@@ -1,0 +1,25 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+.delete-task-button {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: 0.2s;
+    align-self: right;
+    padding:0px;
+}
+
+.delete-task-button:hover {
+    color: darkred;
+    transform: scale(1.2);
+}
