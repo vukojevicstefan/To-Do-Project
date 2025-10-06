@@ -36,7 +36,7 @@ Download: https://dotnet.microsoft.com/download
 Installing & Running Locally
 
 Clone the repository
-git clone https://github.com/YOUR-USERNAME/To-Do-Project.git
+git clone https://github.com/vukojevicstefan/To-Do-Project.git
 cd To-Do-Project
 
 Install frontend dependencies
